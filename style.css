@@ -112,3 +112,74 @@ nav ul li:last-child {
     font-style: italic;
     font-weight: 700;
 }
+
+/* hero section style */
+
+
+/* speaker section start */
+.speaker {
+    padding: 80px 0; 
+}
+
+#h11 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px; 
+    color: #000000;
+}
+
+.speaker .speaker-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; 
+}
+
+.speaker-images > div {
+    background: #ffffff;
+    border: 1.5px solid #efefef; 
+    border-radius: 12px; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+
+.speaker-images > div img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.speaker-images > div .type,
+.speaker-images > div h3,
+.speaker-images > div p:not(.type) {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.type {
+    color: #1D4ED8;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase; 
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.speaker-images > div h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 6px;
+}
+
+.speaker-images > div p:not(.type) {
+    font-size: 14px;
+    color: #6B7280; 
+    font-weight: 400;
+    margin-bottom: 24px; 
+}
+
+/* speaker section start */
